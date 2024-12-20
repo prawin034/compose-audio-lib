@@ -1,6 +1,9 @@
+version: v1.0.2
 jdk:
-  - openjdk21
+  - openjdk21  # Specify JDK version here (JDK 17 or JDK 21)
 
+gradle:
+  version: 8.0
 
 install:
   - ./gradlew clean build

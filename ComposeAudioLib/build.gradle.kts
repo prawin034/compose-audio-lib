@@ -55,9 +55,9 @@ publishing {
         register<MavenPublication>("release") {
             afterEvaluate {
                 from(components["release"])
-                groupId = "com.github.prawin034"
-                artifactId = "compose-audio-kit"
-                version = "1.0.1"
+//                groupId = "com.github.prawin034"
+//                artifactId = "compose-audio-kit"
+//                version = "1.0.1"
 
             }
         }
