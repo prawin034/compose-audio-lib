@@ -57,7 +57,7 @@ publishing {
                 from(components["release"])
                 groupId = "com.github.prawin034"
                 artifactId = "compose-audio-lib"
-                version = "1.0.6"
+                version = "1.0.7"
             }
         }
     }
